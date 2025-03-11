@@ -26,11 +26,11 @@ def main():
         for key, (_, desc) in opciones.items():
             print(f"{key}. {desc}")
         print("9. Ejecutar todas las pruebas")
-        print("0. Salir")
+        print("10. Salir")
         
         opcion = input("\nSeleccione una opción: ")
         
-        if opcion == "0":
+        if opcion == "10":
             print("Saliendo del programa...")
             break
         elif opcion == "9":
